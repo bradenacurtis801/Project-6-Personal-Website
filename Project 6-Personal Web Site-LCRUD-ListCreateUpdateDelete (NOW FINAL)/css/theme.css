@@ -1,0 +1,54 @@
+#myform, h1, #visitorsPage, body{
+    color: rgb(255, 255, 255);
+    z-index: 9999;
+}
+
+
+
+html {
+    font-family: 'Kumbh Sans', sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+}
+body {
+    background: url('/img/EarthImg2.0.png') no-repeat center center fixed;
+    background-size: cover; 
+}
+
+/* .main-grid section:not(:nth-child(2)){
+    border: 1px solid rgb(255, 255, 255);
+} */
+
+#homepage, #contactPage, #mySchedulePage, #videosPage, #registerPage, #visitorsPage {
+    background-color: rgba(255, 255, 255, 0); 
+}
+
+#main-page-header {
+    background: rgba(0, 0, 0, 0.623);
+}
+
+#main-page-h1 {
+    width: 100%;
+    text-align: center;
+}
+
+hr {
+    border-color: white;
+}
+
+hr:before {
+    border-color: white;
+}
+
+a {
+    color: rgb(52, 253, 2);
+}
+
+input, textarea {
+    color: black;
+}
+
+.container {
+    border: 1px white solid;
+    padding: 20px;
+}
